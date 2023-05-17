@@ -4,7 +4,7 @@ const app = express();
 
 app.get('/', (req, res) => {
   const host = req.get('host');
-  res.send(`El host es: ${host}`);
+  res.send(`El host es Alpha: ${host}`);
 });
 
 const port = process.env.PORT || 3000; // Puedes cambiar el número de puerto si lo deseas
